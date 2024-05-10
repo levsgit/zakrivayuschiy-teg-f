@@ -16,15 +16,11 @@
 
 .page {
   color: var(--accent-color);
-
-  /* Второй градиент - своеобразная сетка из цветных и прозрачных линий */
   background: var(--bg-gradient);
-
-  /* Заливка всего пространства страницы */
   background-size: cover;
   min-inline-size: 320px;
   min-block-size: 100dvb;
-
+  font-variation-settings: 'wght' 400;
 }
 
 body {
@@ -154,7 +150,7 @@ body {
 .card__title {
   padding: 5px 10px 5px 10px;
   font-family: 'Inter-Variable';
-  font-weight: var(--text-weight-title);
+  font-variation-settings: var(--text-weight-title);
   font-size: 18px;
   line-height: 21.78px;
   background-color: var(--bg-color);
@@ -170,7 +166,7 @@ body {
   gap: 25px;
   padding: 25px;
   font-family: 'Inter-Variable';
-  font-weight: var(--text-weight-regular);
+  font-variation-settings: var(--text-weight-regular);
   font-size: 18px;
   line-height: 21px;
   text-align: left;
@@ -235,7 +231,6 @@ body {
 
 .card__icon-button {
   height: 36px;
-  border: unset;
   border: 2px solid var(--bg-color);
   padding: 0;
   outline: none;
@@ -299,7 +294,7 @@ body {
   transition: fill 0.3s;
 }
 
-.like-icon.is-liked .contour {
+.like-icon .contour {
   fill: var(--accent-color);
   transition: fill 0.1s ease;
 }

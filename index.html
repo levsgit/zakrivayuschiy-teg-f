@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark light" />
     <link rel="shortcut icon" href="./svg/favicon.svg" type="image/x-icon">
     <link rel="icon" type="image/png" href="./images/favicon.png" sizes="192x192">
     <title>Закрывающий тег</title>
@@ -266,14 +267,16 @@
         </button>
       </footer>
       <dialog id="dialog-save">
-        <div class="dialog__titlebox">
-          <svg width="39" height="39" xmlns="http://www.w3.org/2000/svg" class="floppy">
-            <use xlink:href="#mySymbol" />
-          </svg>   
-          <h2 class="dialog__title">Вставьте дискету, чтобы продолжить</h2>
-        </div>
-        <button class="dialog__close button"><span class="button__text">Ок</span></button>
-      </dialog>
+        <form method="dialog">
+          <div class="dialog__titlebox">
+            <svg width="39" height="39" xmlns="http://www.w3.org/2000/svg" class="floppy">
+              <use xlink:href="#mySymbol" />
+            </svg>   
+            <h2 class="dialog__title">Вставьте дискету, чтобы продолжить</h2>
+          </div>
+          <button class="dialog__close button"><span class="button__text">Ок</span></button>
+        </form>
+      </dialog>      
     </main>
 <svg style="display: none;">
   <symbol id="mySymbol" viewBox="0 0 20 20">
