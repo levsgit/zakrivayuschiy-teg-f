@@ -30,6 +30,7 @@ body {
 @supports (font-variation-settings: normal) {
   body {
     font-family: 'Inter-Variable', sans-serif;
+    font-variation-settings: 'wght' var(--text-weight-regular);
   }
 }
 
