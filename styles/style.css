@@ -30,7 +30,7 @@ body {
 @supports (font-variation-settings: normal) {
   body {
     font-family: 'Inter-Variable', sans-serif;
-    font-variation-settings: 'wght' var(--text-weight-regular);
+    font-variation-settings: var(--text-weight-regular);
   }
 }
 
@@ -145,7 +145,7 @@ body {
   font-size: 18px;
   line-height: 21.78px;
   background-color: var(--bg-color);
-  font-variation-settings: 'wght' var(--text-weight-title);
+  font-variation-settings: var(--text-weight-title);
 }
 
 .card__image {
@@ -164,7 +164,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   text-align: left;
-  font-variation-settings: 'wght' var(--text-weight-regular);
+  font-variation-settings: var(--text-weight-regular);
 }
 
 .card__button-container {
