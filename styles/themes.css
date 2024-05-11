@@ -17,7 +17,7 @@
   --accent-color: #00CC14;
   --bg-color: #000;
   --like-button-color: #00CC14;
-  --core-color: #fff;
+  --core-color: transparent;
   --bg-gradient: repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 4px),
     repeating-linear-gradient(#000, #000 2px, transparent 2px, transparent 4px) 0 0 / 100% 4px,
     repeating-linear-gradient(to bottom, #000, #000 2px, transparent 2px, transparent 4px) 0 0 / 4px 100%,
@@ -32,7 +32,7 @@
     --accent-color: #00CC14;
     --bg-color: #000;
     --like-button-color: #00CC14;
-    --core-color: #fff;
+    --core-color: transparent;
     --bg-gradient: repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 4px),
       repeating-linear-gradient(#000, #000 2px, transparent 2px, transparent 4px) 0 0 / 100% 4px,
       repeating-linear-gradient(to bottom, #000, #000 2px, transparent 2px, transparent 4px) 0 0 / 4px 100%,
